@@ -76,7 +76,7 @@ while True:
         
     try:
         Query = input("Enter Your Query : ")
-        print(ChatGPTBrain(Query=Query))
+        print(ChatGPTBrain(Query=Query),"\n")
     
     except:
         pass
